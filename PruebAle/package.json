@@ -1,0 +1,19 @@
+{
+  "name": "PruebAle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "jstest.js",
+  "dependencies": {
+    "browserify": "latest",
+    "colors": "latest",
+    "express": "^4.13.3",
+    "passport": "^0.3.0",
+    "request": "^2.63.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
