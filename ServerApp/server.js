@@ -30,6 +30,7 @@ app.get('/', function(req, res) {
   ig.media_popular(function(err, medias, remaining, limit) {
     // render the home page and pass in the popular images
     res.render('pages/index', { grams: medias });
+
 });
   //res.render('pages/index', { mensaje: 'I am data!'});
 });
