@@ -4,6 +4,8 @@ var express = require('express');
 var app = express();
 var ig = require('instagram-node').instagram();
 
+var color = require('colors');
+
 // CONFIGURE THE APP
 // ==================================================
 // tell node where to look for site resources
@@ -38,4 +40,5 @@ app.get('/', function(req, res) {
 // START THE SERVER
 // ==================================================
 app.listen(8080);
-console.log('App started! Look at http://localhost:8080');
+console.log('App started! Look at http://localhost:8080'.rainbow);
+//console.log('Lero Lero');

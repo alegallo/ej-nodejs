@@ -12,5 +12,13 @@
     "ejs": "^2.3.4",
     "express": "^4.13.3",
     "instagram-node": "^0.5.8"
+  },
+  "devDependencies": {
+    "colors": "^1.1.2",
+    "grunt": "^0.4.5",
+    "jshint-stylish": "latest",
+    "grunt-concurrent": "latest",
+    "grunt-contrib-watch": "latest",
+    "grunt-nodemon": "^0.4.0"
   }
 }

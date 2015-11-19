@@ -1,0 +1,24 @@
+- Instalar Nodejs:
+
+  sudo apt-get install python-software-properties python g++ make apache2-utils
+  sudo add-apt-repository ppa:chris-lea/node.js
+  sudo apt-get update
+  sudo apt-get install nodejs
+
+- Instalar paquetes con npm (gestor de paquetes Node)
+
+- Instalar Grunt (para que se reinicie el servidor luego de un cambio)
+  - sudo npm install -g grunt-cli grunt -d
+  - para que haga todo eso dps tenes que tener un archivo que le indique que hacer (Gruntfile.js)
+  - https://github.com/maxidev/grunt-lint-reload
+
+- Instalar MongoDB:
+  1. Instalar docker (si quiero laburar con contenedores)
+  2. Bajar imagen de mongo:
+    - docker pull mongo (mongoDB server)
+  3. Levantar mongo:
+    - docker run -p 27017:27017 --name mongodb -d mongo:latest --noprealloc --smallfiles
+  4. Instalar mongoDB client
+    - apt-get install mongodb-org-shell
+
+- Instalar Mongoose (data-modelling)
